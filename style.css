@@ -19,7 +19,6 @@ a{
   top: 0;
   left: 0;
   width: 100%;
-  background: slateblue;
   padding: 25px 9%;
   
 }
@@ -45,7 +44,8 @@ a{
   font-weight: 400;
   transition: .5s;
 }
-.nav-bar ul li a:hover{
-  color: black;
+.nav-bar ul li a:hover,
+.nav-bar ul li a.active{
+  color: #7cf03d;
   font-weight: 700;
 }
