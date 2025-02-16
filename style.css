@@ -49,3 +49,34 @@ a{
   color: #7cf03d;
   font-weight: 700;
 }
+.home{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 65px 9% 0 ;
+}
+.home h1{
+  font-size: 55px;
+}
+.home h2{
+  font-size: 35px;
+  margin-top: 10px;
+}
+.home p{
+  font-size: 20px;
+  margin: 10px 0 25px;
+}
+.home-info .btn-sec{
+  display:flex;
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  background-color: #7cf03d;
+  padding: 10px 30px;
+  border: 1px solid #7cf03d;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #7cf03d;
+
+}
