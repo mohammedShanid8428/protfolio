@@ -237,10 +237,24 @@ a{
 }
 .service-list div h2{
   color: #7cf03d;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 .service-list div a{
   margin-top: 20px;
   color: #201f2d;
+  font-size: 17px;
 }
+.service-list div i{
+
+  font-size: 50px;
+  color: #201f2d;
+  margin-bottom: 10px;
+}
+.service-list div p{
+  margin-bottom: 10px;
+}
+
 
 
