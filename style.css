@@ -264,5 +264,30 @@ a{
   color: #201f2d;
 }
 
+/* ------------------protfolio------------------------- */
+#protfolio{
+  padding: 80px 30px;
+  margin: 0 10px;
+}
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 40px;
+  margin-top: 50px;
+  margin-left:20px ;
+  margin-right: 20px;
+}
+.work{
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.work img{
+  width: 100%;
+  height: 100%;
+  display:block ;
+}
+
+
 
 
