@@ -78,5 +78,33 @@ a{
   border: 1px solid #7cf03d;
   border-radius: 40px;
   box-shadow: 0 0 10px #7cf03d;
-
+  font-size: 16px;
+  color: #1f242d;
+  font-weight: 600;
 }
+.btn:hover{
+  background: transparent;
+  color: #7cf03d;
+  box-shadow: none;
+}
+.home-info .btn-sec .sol{
+  margin-left: 20px;
+}
+.home-info .btn-sec .sol a{
+  display: inline-flex;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #7cf03d;
+  border-radius: 50px;
+  margin: 0 5px;
+  color: #7cf03d;
+  transition: .5s;
+}
+
+.home-info .btn-sec .sol a:hover{
+  background-color:#7cf03d;
+  color: #1f242d;
+  box-shadow: 0 0 10px #7cf03d;
+}
+
+
