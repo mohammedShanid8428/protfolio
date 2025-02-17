@@ -107,4 +107,30 @@ a{
   box-shadow: 0 0 10px #7cf03d;
 }
 
+.home-img .img-box{
+  height: 32vh;
+  width: 32vw;
+  background: red;
+  border-radius: 50%;
+  padding: 5px;
+}
+.home-img .img-box .img-item{
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: slateblue;
+  border-radius: 50%;
+
+}
+
+.home-img .img-box .img-item img{
+  position: absolute;
+  display: block;
+  width: 220px;
+  object-fit: cover;
+}
+
+
 
