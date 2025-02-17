@@ -201,7 +201,8 @@ a{
 }
 .tab-contents{
   color: #fff;
-  
+  display: none;
+
 }
 .tab-contents ul li{
   list-style: none;
@@ -210,5 +211,8 @@ a{
 .tab-contents ul li span{
   color: #7cf03d;
   font-size: 18px;
+}
+.tab-contents.active-tab{
+  display: block;
 }
 

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>protolio website</title>
   <link rel="stylesheet" href="./style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
+
 </head>
+
 <body>
-  <div class="header" >
+  <div class="header">
     <nav class="nav-bar">
       <a href="#" class="logo">Portfolio</a>
       <ul>
@@ -28,18 +30,19 @@
       <h1> Hi'I'm;<span>Mohammed Shanid.T</span></h1>
       <h2>Mearn Stack Intern</h2>
       <p>A MERN stack developer is a software engineer skilled in building full-stack web applications using MongoDB,
-         Express.js, React.js, and Node.js. They handle both frontend and backend development, creating dynamic
-        and responsive user interfaces with React while managing server-side logic and API development using Express and Node.js.
+        Express.js, React.js, and Node.js. They handle both frontend and backend development, creating dynamic
+        and responsive user interfaces with React while managing server-side logic and API development using Express and
+        Node.js.
         MongoDB serves as the database, providing efficient storage and retrieval of data.</p>
       <div class="btn-sec">
         <a href="#" class="btn">Download CV</a>
         <div class="sol">
           <a href="#"><i class='bx bxl-github'></i></a>
-          <a href="#"><i class='bx bxl-linkedin' ></i></a>
-          <a href="#"><i class='bx bxl-youtube' ></i></a>
-          <a href="#"><i class='bx bxl-twitter' ></i></a>
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
         </div>
-      </div>  
+      </div>
 
     </div>
 
@@ -53,7 +56,7 @@
   </section>
 
   <!--manin section 2-->
-  
+
   <section class="about">
     <div id="about">
       <div class="container">
@@ -63,28 +66,51 @@
           </div>
           <div class="about-col-2">
             <h1>About me</h1>
-            <p >I’m a passionate MERN Stack Developer and a Bachelor of Computer Applications (BCA) graduate with hands-on experience in building dynamic and responsive web applications. As a MERN stack intern, I have worked extensively with MongoDB, Express.js, React.js, and Node.js, developing full-stack projects that emphasize performance, scalability, and user experience.
+            <p>I’m a passionate MERN Stack Developer and a Bachelor of Computer Applications (BCA) graduate with
+              hands-on experience in building dynamic and responsive web applications. As a MERN stack intern, I have
+              worked extensively with MongoDB, Express.js, React.js, and Node.js, developing full-stack projects that
+              emphasize performance, scalability, and user experience.
 
-             <br> <br>I enjoy problem-solving, writing clean and efficient code, and continuously learning new technologies to enhance my skills. My goal is to create impactful digital experiences while staying updated with industry <br><br></p>
+              <br> <br>I enjoy problem-solving, writing clean and efficient code, and continuously learning new
+              technologies to enhance my skills. My goal is to create impactful digital experiences while staying
+              updated with industry <br><br>
+            </p>
 
-             <div class="tab-title">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tabs" id="skills">
               <ul>
-                <li><span>Front-End Development</span><br>Building interactive and responsive UI/UX using <br> React.js, Tailwind CSS, and Material UI.</li>
-              <li><span>Back-End Development </span><br> Creating robust server-side applications with Node.js,<br> Express.js, and integrating secure authentication (JWT, OAuth).</li>
-              <li><span>Database Management </span><br>Working with MongoDB (NoSQL) and using Mongoose for efficient data handling.</li>
-              <li><span>Version Control & Deployment</span> Using Git/GitHub for collaboration and deploying <br>applications on Vercel, Netlify, and Render.</li>
+                <li><span>Front-End Development</span><br>Building interactive and responsive UI/UX using <br> React.js,
+                  Tailwind CSS, and Material UI.</li>
+                <li><span>Back-End Development </span><br> Creating robust server-side applications with Node.js,<br>
+                  Express.js, and integrating secure authentication (JWT, OAuth).</li>
+                <li><span>Database Management </span><br>Working with MongoDB (NoSQL) and using Mongoose for efficient
+                  data handling.</li>
+                <li><span>Version Control & Deployment</span> Using Git/GitHub for collaboration and deploying
+                  <br>applications on Vercel, Netlify, and Render.</li>
               </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="experience">
               <ul>
-                <li><span>Front-End Development</span>Built responsive UIs with React.js, Next.js, Tailwind CSS, and Material UI; optimized performance using Redux Toolkit, lazy loading, and code splitting.</li>
-                <li><span>Back-End Development</span> Developed RESTful APIs with Node.js & Express.js, implemented JWT authentication, and integrated WebSockets (Socket.io) for real-time updates.</li>
-                <li></li>
+                <li><span>Front-End Development</span>Built responsive UIs with React.js, Next.js, Tailwind CSS,<br> and
+                  Material UI; optimized performance using Redux Toolkit, lazy loading, and code splitting.</li>
+                <li><span>Back-End Development</span> Developed RESTful APIs with Node.js & Express.js, implemented
+                  <br>JWT authentication, and integrated WebSockets (Socket.io) for real-time updates.</li>
+                <li><span>Database Management</span> Worked with MongoDB & Mongoose, optimized queries using Aggregation
+                  <br> Pipelines, and handled CRUD operations & data validation.</li>
+                <li><span>Version Control & Deployment</span>Used Git & GitHub for collaboration, deployed apps on
+                  Vercel,<br> Netlify, and Render, and tested APIs with Postman & Thunder Client.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Front-End Development</span><br>luminar Techno lab</li>
+                <li><span>Back-End Development</span><br>luminar Techno lab</li>
+                <li><span>Database Management</span><br>luminar Techno lab</li>
+                <li><span>Version Control & Deployment</span><br>luminar Techno lab</li>
               </ul>
             </div>
           </div>
@@ -93,6 +119,23 @@
     </div>
   </section>
 
-  
+  <script>
+    var tablinks = document.getElementsByClassName('tab-links')
+    var tabcontents = document.getElementsByClassName('tab-contents')
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+
 </body>
+
 </html>
