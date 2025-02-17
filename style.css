@@ -138,6 +138,8 @@ a{
   object-fit: cover;
 }
 
+<!----------------------about---------------->
+
 #about{
   padding: 80px 30px;
   color: #fff;
@@ -162,10 +164,39 @@ a{
 .about-col-2 h1{
   font-size: 35px;
   font-weight: 600;
+  color: #fff;
 }
 
 .about-col-2 p{
   font-size: 20px;
   word-spacing: 6px;
+  color: #fff;
+}
+.tab-title{
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links{
+  margin-right: 30px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tab-links:hover{
+  color: #7cf03d;
+}
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #7cf03d;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+.tab-title .active-link::after{
+  width: 50%;
 }
 
