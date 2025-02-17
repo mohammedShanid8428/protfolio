@@ -234,9 +234,10 @@ a{
   border-radius: 20px;
   font-size: 18px;
   font-weight: 300;
+  transition:transform 0.5s;
 }
 .service-list div h2{
-  color: #7cf03d;
+  color: #201f2d;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -254,6 +255,13 @@ a{
 }
 .service-list div p{
   margin-bottom: 10px;
+}
+.service-list div:hover{
+  background: #7cf03d;
+  transform: translateY(-10px);
+}
+.{
+  color: #201f2d;
 }
 
 
