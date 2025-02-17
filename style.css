@@ -57,14 +57,19 @@ a{
   padding: 65px 9% 0 ;
 }
 .home h1{
-  font-size: 55px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.home h1 span{
+  color: #7cf03d;
 }
 .home h2{
   font-size: 35px;
   margin-top: 10px;
+  font-weight: 500;
 }
 .home p{
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px 0 25px;
 }
 .home-info .btn-sec{
@@ -108,14 +113,15 @@ a{
 }
 
 .home-img .img-box{
-  height: 32vh;
-  width: 32vw;
+  height: 40vh;
+  width: 20vw;
   background: red;
-  border-radius: 50%;
+  border-radius: 60%;
   padding: 5px;
 }
 .home-img .img-box .img-item{
   position: relative;
+  display: flex;
   justify-content: center;
   overflow: hidden;
   height: 100%;
@@ -128,7 +134,7 @@ a{
 .home-img .img-box .img-item img{
   position: absolute;
   display: block;
-  width: 220px;
+  width: 100%;
   object-fit: cover;
 }
 
