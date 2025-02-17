@@ -341,9 +341,13 @@ a{
   border: 2px solid #7cf03d;
   padding: 10px 30px;
   border-radius:20px ;
-  text-shadow: 0 0 10px #7cf03d;
+  text-shadow: 0 0 10px #fff;
   box-shadow: 0 0 10px #7cf03d;
+  transition: background 0.5s;
 
+}
+.see-more:hover{
+  background: #7cf03d;
 }
 
 
