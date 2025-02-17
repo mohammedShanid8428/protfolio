@@ -49,27 +49,27 @@ a{
   color: #7cf03d;
   font-weight: 700;
 }
-.home{
+#home{
   color: #fff;
   display: flex;
   align-items: center;
   height: 100vh;
   padding: 65px 9% 0 ;
 }
-.home h1{
+#home h1{
   font-size: 50px;
   font-weight: 700;
 }
-.home h1 span{
+#home h1 span{
   color: #7cf03d;
 }
-.home h2{
+#home h2{
   font-size: 35px;
   margin-top: 10px;
   font-weight: 500;
 }
-.home p{
-  font-size: 15px;
+#home p{
+  font-size: 20px;
   margin: 10px 0 25px;
 }
 .home-info .btn-sec{
@@ -139,8 +139,33 @@ a{
 }
 
 #about{
-  padding: 80px 0;
+  padding: 80px 30px;
+  color: #fff;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.about-col-1{
+  flex-basis: 35%;
+  margin-left: 30px;
+}
+.about-col-1 img{
+  width: 100%;
+  border-radius: 20px;
+}
+.about-col-2{
+  flex-basis: 60%;
+}
+.about-col-2 h1{
+  font-size: 35px;
+  font-weight: 600;
+}
 
+.about-col-2 p{
+  font-size: 20px;
+  word-spacing: 6px;
+}
 
