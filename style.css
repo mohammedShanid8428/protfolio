@@ -451,6 +451,9 @@ form input,form textarea{
 .copyright i{
   color: #7cf03d;
 }
+.copyright span{
+  color: #201f2d;
+}
 
 
 
