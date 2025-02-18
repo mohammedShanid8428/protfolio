@@ -413,7 +413,7 @@ a{
   
   display: inline-block;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 0px;
   
 }
 .right-contact{
@@ -426,13 +426,32 @@ form input,form textarea{
   background: #262626;
   color: #fff;
   padding: 15px;
-  margin: 15px 0;
+  margin: 12px 0;
   border-radius: 10px;
   font-size: 18px;
-  
-
 
 }
+ form.btn3{ 
+  margin-top: 20px;
+  padding: 14px 60px;
+  cursor: pointer;
+  font-size: 28px;
+}
+.copyright{
+  width: 100%;
+  color: #fff;
+  background: #6d6c6c;
+  margin-top: 150px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 18px;
+  word-spacing: 3px;
+
+}
+.copyright i{
+  color: #7cf03d;
+}
+
 
 
 
