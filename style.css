@@ -379,21 +379,63 @@ a{
   border-radius: 10px;
   padding: 5px 7px;
   color: #fff;
+  transition: 0.5s;
 
 }
 .left-contact p i:hover{
   background: #7cf03d;
   color: #201f2d;
+  transform: translateY(-5px);
 }
 .social-icon{
-  margin-left: 25px;
+  margin-left: 22px;
 }
 
 .social-icon a{
   display: inline-block;
-  font-size: 30px;
+  font-size: 22px;
+  border: 2px solid #7cf03d;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 3px 7px;
+  transition: 0.5s;
+  margin-bottom: 60px;
 
 }
+.social-icon a:hover{
+  background: #7cf03d;
+  color: #201f2d;
+  transform: translateY(-5px);
+}
+
+.btn2{
+  position: absolute;
+  
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 80px;
+  
+}
+.right-contact{
+  width: 100%;
+}
+form input,form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  color: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  
+
+
+}
+
+
+
 
 
 
