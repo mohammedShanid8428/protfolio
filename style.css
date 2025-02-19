@@ -92,6 +92,7 @@ a {
 #home p {
   font-size: 1rem;
   margin: 10px 0 25px;
+  
 }
 
 .home-info {
@@ -114,14 +115,20 @@ a {
   color: #1f242d;
   font-weight: 600;
 }
-.btn2{
-  border-radius: 20%;
+.bt{
+  margin-left: 20px;
+  background: transparent;
+  color: #7cf03d;
 }
-
 .btn:hover {
   background: transparent;
   color: #7cf03d;
   box-shadow: none;
+}
+.bt:hover{
+  background: #7cf03d;
+  color: #201f2d;
+
 }
 
 .home-info .btn-sec .sol {
@@ -211,6 +218,7 @@ a {
   font-size: 1rem;
   word-spacing: 6px;
   color: #fff;
+  text-align: justify;
 }
 
 .tab-title {
