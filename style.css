@@ -429,24 +429,57 @@ a {
 
 /* ---------------------about----------------------------- */
 
-.contact-section {
+/* .contact-section {
   display: flex;
-}
+} */
 
-.left-contact {
+/* .left-contact {
   flex-basis: 35%;
+/* } */
+
+.right-contact form{
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.right-contact {
-  flex-basis: 60%;
+.right-contact form .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+} 
+
+.right-contact form .input-box input,
+.right-contact form textarea{
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 0.8rem;
+  margin: .7rem ;
+  background: #262626;
+  color: #fff;
+}
+
+.right-contact form .input-box input{
+  width: 50%;
+}
+.right-contact form textarea{
+  width: 98%;
+}
+.left-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .left-contact p {
   color: #fff;
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin-left: 15px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .left-contact p i {
@@ -479,7 +512,7 @@ a {
   margin-right: 10px;
   padding: 3px 7px;
   transition: 0.5s;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 
 }
 
@@ -490,38 +523,10 @@ a {
 }
 
 .btn2 {
-  position: absolute;
-
   display: inline-block;
-  margin-top: 50px;
-  margin-left: 0px;
-
-}
-
-.right-contact {
-  width: 100%;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  border: 0;
-  outline: none;
-  background: #262626;
-  color: #fff;
-  padding: 15px;
-  margin: 12px 0;
-  border-radius: 10px;
-  font-size: 18px;
-
-}
-
-form.btn3 {
-  margin-top: 20px;
-  padding: 14px 60px;
-  cursor: pointer;
-  font-size: 28px;
-}
+  margin-top: 30px;
+  margin-bottom: 50px;
+} 
 
 .copyright {
   width: 100%;
