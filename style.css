@@ -479,7 +479,7 @@ a {
   margin-top: 20px;
   font-size: 1.4rem;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .p1{
   margin-left: 25px;
@@ -514,11 +514,24 @@ a {
 .left-contact h4{
   font-size: 1.5rem;
   color: #fff;
-  margin-bottom: 20px;
+  font-weight: 600;
+  margin-bottom:30px;
 }
 
 .social-icon {
-  margin-left: 22px;
+  text-align: center;
+
+}
+.social-icon h3{
+  margin-top: 50px;
+  color: #7cf03d;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+.social-icon .h3p{
+  margin-top: 3px;
+  margin-bottom: 20px;
+  
 }
 
 .social-icon a {
@@ -526,9 +539,10 @@ a {
   font-size: 22px;
   border: 2px solid #7cf03d;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 3px 7px;
   transition: 0.5s;
+  margin-top: 20px;
   margin-bottom: 50px;
 
 }
