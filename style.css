@@ -417,12 +417,15 @@ a {
   font-size: 18px;
   background: #fff;
   color: #201f2d;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   text-align: center;
-  line-height: 60px;
+  line-height: 50px;
+  margin: 0 8px;
 }
+
+
 
 
 .work:hover img {
@@ -440,14 +443,17 @@ a {
   border: 2px solid #7cf03d;
   padding: 10px 30px;
   border-radius: 20px;
-  text-shadow: 0 0 10px #fff;
+  text-shadow: 0 0 2px #fff;
   box-shadow: 0 0 10px #7cf03d;
+  font-size: 1rem;
+  font-weight: 500;
   transition: background 0.5s;
 
 }
 
 .see-more:hover {
   background: #7cf03d;
+  color: #201f2d;
 }
 
 /* ---------------------about----------------------------- */
