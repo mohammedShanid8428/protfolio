@@ -376,6 +376,7 @@ a {
   display: block;
   border-radius: 20px;
   transition: 0.5s;
+  box-shadow: 0 0 15px #f2f2f2;
 
 }
 
@@ -391,6 +392,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   padding: 0 40px;
   transition: 0.5s;
@@ -407,18 +409,21 @@ a {
 
 .layer p {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .layer i {
   font-size: 18px;
   background: #fff;
+  color: #201f2d;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   text-align: center;
   line-height: 60px;
 }
+
 
 .work:hover img {
   transform: scale(1.1);
