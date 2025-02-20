@@ -211,6 +211,7 @@ a {
   font-weight: 600;
   color: #fff;
   margin-bottom: 20px;
+  margin-left: 20px;
 
 }
 
@@ -476,13 +477,19 @@ a {
 .left-contact p {
   color: #fff;
   margin-top: 20px;
-  font-size: 1.7rem;
-  margin-left: 15px;
+  font-size: 1.4rem;
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 500;
+}
+.p1{
+  margin-left: 25px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
-.left-contact p i {
+.left-contact .p1 i {
   display: inline-flex;
   margin-right: 15px;
   font-size: 22px;
@@ -494,10 +501,20 @@ a {
 
 }
 
-.left-contact p i:hover {
+.left-contact .p1 i:hover {
   background: #7cf03d;
   color: #201f2d;
   transform: translateY(-5px);
+}
+
+.left-contact h2{
+  color: #fff;
+  font-size:1.7rem ;
+}
+.left-contact h4{
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .social-icon {
