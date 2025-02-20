@@ -15,6 +15,7 @@ html {
 body {
   background: #201f2d;
 }
+/* ----------------------header---------------------- */
 
 a {
   color: #fff;
@@ -210,6 +211,9 @@ a {
 
 .about-col-2 {
   flex-basis: 60%;
+}
+#abt{
+  margin-left: 3px;
 }
 
 .sub-title {
